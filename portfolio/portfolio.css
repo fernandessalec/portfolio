@@ -1,0 +1,340 @@
+body {
+    margin: 0svb;
+    background-color: #141414;
+    color: red
+}
+
+.a {
+    height: 700px;
+    display: flex;
+    font-family: "Bangers", system-ui;
+    
+}
+
+.b {
+    width: 20%;
+    height: 100%;
+    z-index: 1000;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bangers", system-ui;
+    justify-content: center;
+    position: fixed;
+}
+
+.c {
+    width: 80%;
+    height: 700px;
+    margin-left: 20%;
+}
+
+.text-barra {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 33px;
+    font-family: "Bangers", system-ui;
+    font-style: normal;
+}
+
+.text-barra:hover {
+    color: rgba(255, 34, 34, 0.792);
+    border: none;
+}
+
+
+.foto {
+    width: 30%;
+    height: 365px;
+    border: solid 2px purple;
+    border-radius: 160%;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+.sobremim {
+    color: white;
+    height: 550px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    /* mantém a estrutura de layout normal */
+    padding: 20px;
+    background-color: #111;
+}
+
+.sobremim2 {
+
+    font-size: 16px;
+    width: fit-content;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    /* Isso permite que os itens fiquem lado a lado */
+    align-items: center;
+    /* Alinha verticalmente */
+    gap: 20px;
+    /* Espaçamento entre a imagem e o texto */
+    background-color: #0000007a
+}
+
+.textinho {
+    font-size: 25px;
+    color: white;
+    max-width: 90%;
+    padding: 20px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.foto7 {
+    width: 350px;
+    /* ajuste conforme necessário */
+    height: auto;
+    border-radius: 10px;
+    /* opcional para suavizar as bordas */
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    z-index: 0;
+    /* camada de fundo */
+}
+
+.beirario {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    opacity: 30%;
+    position: fixed;
+    z-index: 0;
+    /* imagem atrás de tudo */
+}
+
+
+.bemvindo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Bangers", system-ui;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 1;
+    /* acima da imagem */
+}
+
+.fototopo {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100%;
+
+}
+
+.imagemfototopo {
+    text-align: center;
+    margin: 4%;
+
+
+}
+
+.icone{  
+    width: 100%;
+    height: 75px;
+}
+
+
+.itens {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: fit-content;
+}
+
+.curriculo {
+    border: solid 2px rgba(255, 0, 0, 0);
+    height: 990px;
+    background-color: #111;
+    position: relative;
+    z-index: 1;
+    /* garante que fique acima da imagem */
+    
+}
+
+.meucurriculo {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    
+}
+
+.fotocurriculo {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin: 5%;
+    
+}
+
+.ftcurriculo {
+    align-items: center;
+    width: 50%;
+}
+
+.textocurriculo {
+    background-color: #0000007a;
+    border-radius: 15px;
+    margin: 2%;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centraliza verticalmente */
+    align-items: center;      /* Centraliza horizontalmente */
+    text-align: center;
+    height: 350px; /* ou defina uma altura fixa, ex: 300px */
+}
+.download {
+    background-color: #4f4f4f; /* cinza grafite */
+    color: #ffffff; /* branco no texto */
+    padding: 12px 30px;
+    font-size: 20px;
+    font-family: "Bangers", system-ui;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.download:hover {
+    background-color: #2bae27; /* verde escuro */
+    color: #ffffff;
+    transform: scale(1.08);
+    box-shadow: 0 0 12px rgb(111, 255, 0);
+}
+.materias{
+    border: solid 2px rgba(255, 0, 0, 0);
+    height: 500px;
+    background-color: #111;
+    position: relative;
+    z-index: 1;
+}
+.materias1 {
+    border-radius: 15px;
+    height: 50%;
+    margin: 2%;
+    font-size: 35px;
+    background-color: #0000007a;
+
+    /* Centralização com flex */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    /* Permite quebra de linha se necessário */
+    flex-wrap: wrap;
+    gap: 20px; /* espaço entre os itens */
+}
+
+.materias2 {
+    margin: 1%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+}
+.materias2:hover{
+    color: rgba(255, 34, 34, 0.792);
+}
+.titulomateria{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.portfolios{
+    border: solid 2px rgba(255, 0, 0, 0);;
+    height: 1000px;
+    background-color: #111;
+    position: relative;
+    z-index: 1;
+}
+.tituloportfolios{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.portfolio1{   
+    background-color: #0000007a;
+    border-radius: 15px;
+    height: 400px;
+    margin: 2%;
+    display: flex;
+}
+
+.textoportfolio1{
+    border-radius: 15px;
+    width: 50%;
+    
+}
+.imagemportfolio {
+
+    width: 50%;
+    display: flex;               
+    justify-content: center;    
+    align-items: center;        
+    height: 100%;
+}
+
+.imagemportfolio1 {
+    width: auto;
+    max-width: 95%;
+    max-height: 100%;
+    margin-left: 30px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.imagemportfolio1:hover{
+    transform: scale(1.05) rotate(1deg); 
+    filter: brightness(1.1); 
+}
+.p2023{
+    text-align: center;
+    color: white;
+    font-family: "Bangers", system-ui;
+}
+.t2023{
+    text-align: center;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    margin: 2%;
+}
+.imagemportfolio2 {
+    width: auto;
+    max-width: 95%;
+    max-height: 110%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+}
+.imagemportfolio2:hover{
+    transform: scale(1.05) rotate(1deg); 
+    filter: brightness(1.1); 
+}
